@@ -33,8 +33,8 @@ public class Mano {
  * ya que a los demas les gana y con simismo empata.
  * */
 	private Integer getNext(int out){
-		if(this.forma.getValor()-out>4){
-			return (this.forma.getValor()-out-5);		
+		if(this.forma.getValor()-out<0){
+			return (this.forma.getValor()-out+5);		
 		}
 		return this.forma.getValor()-out;
 	}
