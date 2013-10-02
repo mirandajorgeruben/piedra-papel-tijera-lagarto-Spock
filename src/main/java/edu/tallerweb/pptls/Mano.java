@@ -15,8 +15,8 @@ public class Mano {
 	 */
 	public Mano(final Forma forma) {
 		this.forma=forma;
-		this.perdioCon.add(getNext(0));
 		this.perdioCon.add(getNext(1));
+		this.perdioCon.add(getNext(2));
 	}
 	/**
 	 se reservan para evaluar estados del Resultado.
